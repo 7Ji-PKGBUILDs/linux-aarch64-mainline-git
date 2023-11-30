@@ -9,6 +9,7 @@ pkgbase = linux-aarch64-mainline-git
 	makedepends = bc
 	makedepends = dtc
 	makedepends = uboot-tools
+	makedepends = cpio
 	options = !strip
 	source = git+https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git
 	cksums = SKIP
