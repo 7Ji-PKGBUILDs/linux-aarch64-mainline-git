@@ -45,6 +45,7 @@ prepare() {
     _update DEFAULT_HOSTNAME alarm
   )
   sed -i "${pattern}" .config
+  make olddefconfig
 
   echo "Setting version..."
   local tag=$(git describe --abbrev=0 --tags)
