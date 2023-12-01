@@ -115,7 +115,7 @@ _package() {
   make INSTALL_DTBS_PATH="${pkgdir}/boot/dtbs/${pkgase}" dtbs_install
 
   # remove build link
-  rm "$modulesdir"/{build,source}
+  rm "$modulesdir"/build
 }
 
 _package-headers() {
